@@ -1,0 +1,22 @@
+h1 {
+    background-color: steelblue;
+    padding: 58px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+footer{
+    background-color: cadetblue;
+    padding: 0.5em;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+}
+ul {
+    padding: 0;
+}

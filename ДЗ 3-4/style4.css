@@ -1,0 +1,30 @@
+td, th{ 
+    border: 1px solid gold;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+.table-1 {
+    margin: auto;
+}
+th{color: blue;}
+.col-title {font-style: italic;}
+h1 {
+    background-color: steelblue;
+    padding: 58px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+footer{
+    background-color: cadetblue;
+    padding: 0.5em;
+    margin: 150px 0px;
+}
+body {
+    margin: 0;
+}

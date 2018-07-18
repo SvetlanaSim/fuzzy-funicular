@@ -1,0 +1,41 @@
+img	{
+        margin-left:440px; 
+        margin-top:10px;
+}
+
+h1 {
+        background-color: rgb(107, 165, 107);
+        padding: 30px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin: 15px 400px;
+}
+header p {  
+        background-color: steelblue;
+        padding: 55px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin: 0;
+        font-size: 25px;
+        font-weight: bold;
+}
+body {
+        margin: 0;
+}
+footer{
+        background-color: cadetblue;
+        padding: 0.5em;
+        margin: 250px 0px  0px  0px;
+}
+@media (max-width:1000px){
+        img{ 
+       margin-left:10px;  
+       height: 100%;
+       width: 100%;  
+        }
+        h1 {
+       margin: auto;
+        }
+}

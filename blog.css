@@ -1,0 +1,41 @@
+header {
+    background-color: steelblue;
+    padding: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+footer{
+    background-color: cadetblue;
+    padding: 0.5em;
+    margin-top: 340px;
+}
+
+.menu {
+    padding-top: 50px;
+    position: fixed;
+    float: left;
+}
+.content {
+    margin-left: 400px;
+    
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: static;
+        float: unset
+    }
+    .content {
+        margin-left: 0;
+        
+    }
+}
+
+
+
