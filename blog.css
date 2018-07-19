@@ -36,6 +36,10 @@ footer{
         
     }
 }
+li {
+    list-style-type: none;
+    line-height: 40px
+}
 
 
 
