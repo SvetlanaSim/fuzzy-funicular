@@ -1,0 +1,182 @@
+html, body, header {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.header {
+    height: 100%;
+    background-image: url(../img/background1.jpg);
+    padding-bottom: 200px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+header h1 {
+    padding-top: 200px;
+    font-weight: bold;
+}
+header p {
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.menu{
+    float: right;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    padding-right: 50px
+}
+.button a {
+    display: inline-block;
+    background-color: #fafafa;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 10px ;
+}
+.button a:hover {
+    background-color: rgb(13, 105, 180);
+    color: white
+}
+
+.my-title {
+    text-transform: capitalize;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 700
+}
+.my-hr {
+    border-color: blue;
+    height: 1px;
+    width: 30px;
+}
+i {
+    color: dodgerblue;
+}
+.table-1 {
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    padding: 40px 20px;
+    margin:  10px
+}
+
+img  {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    margin: 20px 20px;
+}
+#color {
+    background-color:rgba(218, 217, 213, 0.884);
+    margin-top: 100px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.table-2 {
+    padding-left: 20px;
+    text-align: left;
+}
+.left i {
+    text-align: left
+}
+
+.show:hover {
+    background-color: rgba(0, 0, 0, 0.851);
+   
+}
+li {
+    list-style-type: none;
+}
+.check::before{
+    content: "\f05d";
+    font-family: FontAwesome;
+    color: dodgerblue;
+}
+
+.block {
+    padding-left: 370px;
+    text-align: left;
+}
+.white-text > p {
+    color: white;
+    text-align: center;
+}
+.black {
+    background-color: rgba(0, 0, 0, 0.836)
+}
+
+.circle {
+    position: relative;
+    border-radius: 999px;
+    border: 1px solid dodgerblue;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+}
+.circle > p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+}
+
+.cell{
+    background-color: rgba(128, 128, 128, 0.685);
+    
+}
+
+.cell img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    width: 350px;
+}
+
+.cell h5,p{
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+}
+.row-icons {
+   padding-left: 30px;
+}
+.row {
+    padding-top: 30px;
+    padding-left: 100px
+}
+
+form{
+    padding-bottom: 200px
+}
+footer {
+    background-color: black;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.ellipse {
+    position: relative;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: white;  
+    padding-left: 20px
+}
+.ellipse > i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
