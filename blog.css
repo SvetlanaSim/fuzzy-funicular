@@ -6,14 +6,15 @@ header {
     text-align: center;
     margin: 0;
 }
-body {
+body, html {
     box-sizing: border-box;
     margin: 0;
+    height: 100%;
 }
 footer{
     background-color: cadetblue;
-    padding: 0.5em;
-    margin-top: 340px;
+    height: 50px;
+    margin-top: -50px
 }
 
 .menu {
@@ -24,6 +25,10 @@ footer{
 .content {
     margin-left: 400px;
     
+}
+
+.container {
+    min-height: 100%;
 }
 
 @media (max-width: 768px) {

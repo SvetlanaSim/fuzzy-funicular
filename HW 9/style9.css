@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+}
+html, body, header {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.header {
+    height: 100%;
+    background-image: url(../img/background1.jpg);
+    color: white;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+}
+.dark-background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 100%;
+}
+header h1 {
+    font-weight: bold;
+}
+header > div, header > div > div {
+    height: 100%;
+}
+
+a {
+    padding-right: 50px
+}
+.button a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 10px ;
+    background-color: white
+}
+.button a:hover {
+    background-color: rgb(13, 105, 180);
+    color: white
+}
+
+.my-title {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700
+}
+.my-hr {
+    border-color: blue;
+    height: 1px;
+    width: 30px;
+}
+i {
+    color: dodgerblue;
+}
+.table-1 {
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    padding: 40px 20px;
+    margin:  10px;
+}
+
+.table-2 {
+    padding-left: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.text-left > p {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+.check::before{
+    content: "\f05d";
+    font-family: FontAwesome;
+    color: dodgerblue;
+}
+
+.white-text > p {
+    color: white;
+    text-align: center;
+}
+
+section#dark {
+    padding: 0;
+    background-image: url(../img/background2.jpg);
+    background-attachment: fixed;
+    width: 99%;
+    height: 150px; 
+}
+
+#dark {
+    position: relative;
+}
+
+.dark-background-2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;   
+
+} 
+.circle {
+    position: relative;
+    border-radius: 999px;
+    border: 1px solid dodgerblue;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+}
+.circle > p{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+    border: none
+}
+
+.cell {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(175, 175, 175, 0.068);
+  padding: 10px;
+  background-color: rgba(175, 175, 175, 0.514);
+  text-align: center;  
+}
+
+img.team{
+    width: 100%;
+    padding: 30px 10px;
+}
+.cell > p{
+    color: gray;
+    font-size: 12px;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+}
+.row-icons {
+    padding-left: 15px;
+    padding-right: 15px
+}
+i .row-icons {
+    padding-left: 10px
+}
+form{
+    padding-bottom: 200px
+}
+footer {
+    background-color: black;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+.ellipse {
+    position: relative;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: white;  
+    padding-left: 20px
+}
+.ellipse > i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#portfolio {
+    background-color: rgba(218, 217, 213, 0.884);
+}
+#portfolio img{
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+#portfolio .on-hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(163, 156, 125, 0.884);
+    display: none;
+    z-index: 10;
+}
+#portfolio .portfolio-item {
+    position: relative;
+}
+#portfolio .portfolio-item:hover .on-hover {
+    display: block;
+}
+#portfolio .no-padding {
+    padding: 0;
+}
+
+section {
+    padding: 150px 0 150px 0;
+}
+
+#why-choose-us img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control > a {
+    padding-right: 0;
+}
+
+img.rounded-image {
+    border-radius: 50%;
+}
+#Jon-Doe {
+    background-image: url(../img/background3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+    padding: 0;
+    
+}
+
+.dark-background-3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.685);
+    width: 100%;
+    height: 100%;   
+    padding-top: 200px;
+}
+
+ h5.white{
+    color: white;
+    font-weight: bold;
+}
+
+p.white {
+    color: white;
+    width: 100%;
+    height: 100%; 
+}
+
+.button-centered {
+   text-align: center;
+   margin-top: 30px;  
+}
+
+.my-flex-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    padding-top: 35px;
+   }
+
+.my-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+img.recent-news {
+    max-width: 350px;
+    height: 200px;  
+     
+}
+
+.row-icons > i {
+    padding-top: 20px
+}
+
+h5.h5-left {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+section.last {
+    padding-bottom: 30px
+}
+
+a.my-anchor {
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    font-size: 30px;
+    padding-right: 0;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px
+}
+
+.my-anchor:hover {
+    border-radius: 5px;
+    background-color: dodgerblue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.my-anchor > i {
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.my-anchor > i:hover {
+    color: white;
+    padding-bottom: 15px
+}
+
+@media (max-width:770px) {
+    #color > h5, p, i{
+        padding-right: 10px;
+        padding-left: 15px;
+    }    
+
+    p.text-left {
+        max-width: 300px;
+    }
+    
+   h5.h5-left{
+        max-width: 300px;
+    }
+}
+
+ @media (max-width: 991px) {
+    section#dark {
+        height: 260px;
+        width: 400px;
+    }
+ }
+
+ @media (max-width: 768px) {
+    section#dark {
+        height: 520px;
+        margin-bottom: 100px
+    }
+ }
+
+ @media (max-width: 991px) {
+     .my-flex-class {
+         margin-left: -80px
+     }
+ }
+
+ 
+    
+
+
