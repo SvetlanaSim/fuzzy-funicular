@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
-=======
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 html, body, header {
     height: 100%;
     background-size: cover;
@@ -12,7 +9,6 @@ html, body, header {
 .header {
     height: 100%;
     background-image: url(../img/background1.jpg);
-<<<<<<< HEAD
     color: white;
     text-align: center;
     background-size: cover;
@@ -29,25 +25,6 @@ header h1 {
 }
 header > div, header > div > div {
     height: 100%;
-=======
-    padding-bottom: 200px;
-    color: white;
-    text-align: center;
-    background-size: cover;
-}
-header h1 {
-    padding-top: 200px;
-    font-weight: bold;
-}
-header p {
-    padding-left: 400px;
-    padding-right: 400px;
-}
-.menu{
-    float: right;
-    position: fixed;
-    width: 100%;
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 }
 
 a {
@@ -55,20 +32,13 @@ a {
 }
 .button a {
     display: inline-block;
-<<<<<<< HEAD
-=======
-    background-color: #fafafa;
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
     color: black;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
     padding: 10px 20px;
     margin-right: 10px ;
-<<<<<<< HEAD
     background-color: white
-=======
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 }
 .button a:hover {
     background-color: rgb(13, 105, 180);
@@ -77,10 +47,6 @@ a {
 
 .my-title {
     text-transform: capitalize;
-<<<<<<< HEAD
-=======
-    padding-top: 100px;
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
     text-align: center;
     font-weight: 700
 }
@@ -97,7 +63,6 @@ i {
     width: 350px;
     border: 1px solid rgba(128, 128, 128, 0.39);
     padding: 40px 20px;
-<<<<<<< HEAD
     margin:  10px;
 }
 
@@ -111,35 +76,6 @@ i {
     text-align: left;
 }
 
-=======
-    margin:  10px
-}
-
-img  {
-    width: 350px;
-    height: 350px;
-    background-size: cover;
-    margin: 20px 20px;
-}
-#color {
-    background-color:rgba(218, 217, 213, 0.884);
-    margin-top: 100px;
-    margin-top: 100px;
-    padding-bottom: 80px;
-}
-.table-2 {
-    padding-left: 20px;
-    text-align: left;
-}
-.left i {
-    text-align: left
-}
-
-.show:hover {
-    background-color: rgba(0, 0, 0, 0.851);
-   
-}
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 li {
     list-style-type: none;
 }
@@ -149,44 +85,28 @@ li {
     color: dodgerblue;
 }
 
-<<<<<<< HEAD
-=======
-.block {
-    padding-left: 370px;
-    text-align: left;
-}
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 .white-text > p {
     color: white;
     text-align: center;
 }
-<<<<<<< HEAD
 
 section#dark {
     padding: 0;
     background-image: url(../img/background2.jpg);
     background-attachment: fixed;
-    width: 99%;
+    width: 98.5%;
     height: 150px; 
 }
 
 #dark {
     position: relative;
 }
-
 .dark-background-2 {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.685);
     width: 100%;
-    height: 100%;   
-
+    height: 100%;      
 } 
-=======
-.black {
-    background-color: rgba(0, 0, 0, 0.836)
-}
-
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 .circle {
     position: relative;
     border-radius: 999px;
@@ -198,7 +118,6 @@ section#dark {
 .circle > p{
     position: absolute;
     left: 50%;
-<<<<<<< HEAD
     top: 30%;
     transform: translate(-50%, -50%);
     padding-top: 30px;
@@ -221,28 +140,6 @@ img.team{
 .cell > p{
     color: gray;
     font-size: 12px;
-=======
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 30px;
-}
-
-.cell{
-    background-color: rgba(128, 128, 128, 0.685);
-    
-}
-
-.cell img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 35px;
-    width: 350px;
-}
-
-.cell h5,p{
-    text-align: center;
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 }
 
 .white-text {
@@ -250,22 +147,12 @@ img.team{
     text-align: center;
 }
 .row-icons {
-<<<<<<< HEAD
     padding-left: 15px;
     padding-right: 15px
 }
 i .row-icons {
     padding-left: 10px
 }
-=======
-   padding-left: 30px;
-}
-.row {
-    padding-top: 30px;
-    padding-left: 100px
-}
-
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
 form{
     padding-bottom: 200px
 }
@@ -291,7 +178,6 @@ footer {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-<<<<<<< HEAD
 #portfolio {
     background-color: rgba(218, 217, 213, 0.884);
 }
@@ -374,17 +260,18 @@ p.white {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 300px;
+    width: 250px;
     height: 100px;
     margin: auto;
-    padding-top: 35px;
-   }
+    padding-top: 35px
+}
 
 .my-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 50px
+
 }
 
 img.recent-news {
@@ -436,6 +323,10 @@ a.my-anchor {
     padding-bottom: 15px
 }
 
+#my-form {
+    padding-bottom: 20px;
+}
+
 @media (max-width:770px) {
     #color > h5, p, i{
         padding-right: 10px;
@@ -454,26 +345,28 @@ a.my-anchor {
  @media (max-width: 991px) {
     section#dark {
         height: 260px;
-        width: 400px;
+        max-width:991px;
+        margin-left: auto;
+        margin-right: auto;
     }
  }
 
  @media (max-width: 768px) {
     section#dark {
         height: 520px;
-        margin-bottom: 100px
+        margin-bottom: 100px;
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto
     }
  }
 
- @media (max-width: 991px) {
-     .my-flex-class {
-         margin-left: -80px
+ @media (max-width: 768px) {
+     .my-flex-class{
+         justify-content: flex-start;
+         margin-left: -50px;
      }
  }
-
- 
     
 
 
-=======
->>>>>>> b7c9ec66a3596f52895f4487ea7262cdd973c61e
